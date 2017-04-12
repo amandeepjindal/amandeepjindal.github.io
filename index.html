@@ -22,10 +22,342 @@
 </head><!--/head-->
 
 <body>
-    
-    <div class="carousel-content" >
-        <h1> Hello! I am Amandeep Jindal, welcome to my website ! </h1>
-    </div>
+   <body data-spy="scroll" data-target="#navbar" data-offset="0">
+    <header id="header" role="banner">
+        <div class="container">
+            <div id="navbar" class="navbar navbar-default">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"></a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#main-slider"><i class="icon-home"></i></a></li>
+                        <li><a href="#services">Research Interests</a></li>
+                        <li><a href="#portfolio">Projects</a></li>
+                        <li><a href="#pricing">Publications</a></li>
+                        <li><a href="#about-us">About Me</a></li>
+                        <li><a href="#contact">Contact Me</a></li>
+                    </ul>
+                    
+                </div>
+        </div>
+    </header><!--/#header-->
+
+    <section id="main-slider" class="carousel">
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="container">
+                    <div class="carousel-content">
+                        <h1>Hello ! Welcome to xinformatics...</h1>
+                        <p class="lead"></p>
+                    </div>
+                </div>
+            </div><!--/.item-->
+            <div class="item">
+                <div class="container">
+                    <div class="carousel-content">
+                        <h1>I am Shashank Yadav</h1>
+                        <p class="lead"></p>
+                    </div>
+                </div>
+            </div><!--/.item-->
+            <div class="item">
+                <div class="container">
+                    <div class="carousel-content">
+                        <h1>Scroll down to know more ...</h1>
+                        <p class="lead"></p>
+                    </div>
+                </div>
+            </div><!--/.item-->
+        </div><!--/.carousel-inner-->
+        <a class="prev" href="#main-slider" data-slide="prev"><i class="icon-angle-left"></i></a>
+        <a class="next" href="#main-slider" data-slide="next"><i class="icon-angle-right"></i></a>
+    </section><!--/#main-slider-->
+
+    <section id="services">
+        <div class="container">
+            <div class="box first">
+            <p class="lead center"> I don't know anything, but I do know that everything is interesting if you go into it deeply enough <br> - Richard P. Feynman 
+            </p>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="center">
+
+                            <i class="icon-laptop icon-md icon-color1"></i>
+                            <h4>Interest 1</h4>
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="center">
+                            <i class="icon-laptop icon-md icon-color2"></i>
+                            <h4>Interest 2</h4>
+                           
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="center">
+                            <i class="icon-laptop icon-md icon-color3"></i>
+                            <h4>Interest 3</h4>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <div class="box">
+                <div class="center gap">
+                    <h2>Projects</h2>
+                    <p class="lead"> It doesn't matter how beautiful your theory is, it doesn't matter how smart you are.<br> If it doesn't agree with experiment, it's wrong.  - Richard P. Feynman </p>
+                </div><!--/.center-->
+                <ul class="portfolio-filter">
+                    <li><a class="btn btn-primary active" href="#" data-filter="*">All Projects</a></li>
+                    <li><a class="btn btn-primary" href="#" data-filter=".bootstrap">Field 1</a></li>
+                    <li><a class="btn btn-primary" href="#" data-filter=".neuro">Field 2</a></li>
+                    <li><a class="btn btn-primary" href="#" data-filter=".html">Field 3</a></li>
+                </ul><!--/#portfolio-filter-->
+                <ul class="portfolio-items col-4">
+                    <li class="portfolio-item bootstrap html">
+                        <div class="item-inner">
+                            <div class="portfolio-image">
+                                <img src="images/portfolio/thumb/ngs.jpg" alt="">
+                                <div class="overlay">
+                                    <a class="preview btn btn-danger" title="NGS Data Analysis" href="images/portfolio/full/ngs.JPG"><i class="icon-eye-open"></i></a>             
+                                </div>
+                            </div>
+                            <p class="nice cool" > qwerty123</p>
+                        </div>
+                    </li>
+                    <li class="portfolio-item neuro">
+                        <div class="item-inner">
+                            <div class="portfolio-image">
+                                <img src="images/portfolio/thumb/genn.jpg" alt="">
+                                <div class="overlay">
+                                    <a class="preview btn btn-danger" title="Olfactory Learning in Bees" href=""><i class="icon-eye-open"></i></a>             
+                                </div>
+                            </div>
+                            <p class="nice cool" > qwerty123 </p>
+                        </div>
+                    </li>
+                    <li class="portfolio-item bootstrap">
+                        <div class="item-inner">
+                            <div class="portfolio-image">
+                                <img src="images/portfolio/thumb/ripy.jpg" alt="">
+                                <div class="overlay">
+                                    <a class="preview btn btn-danger" title="RiPy 1.0 | A Computational tool for Analysis of Ribosomal Proteins" href="images/portfolio/full/ripy.jpg"><i class="icon-eye-open"></i></a>  
+                                </div>
+                            </div> 
+                            <p class="nice cool" > qwerty123</p>         
+                        </div>
+                    </li>
+                    <li class="portfolio-item wordpress">
+                        <div class="item-inner">
+                            <div class="portfolio-image">
+                                <img src="images/portfolio/thumb/igem.jpg" alt="">
+                                <div class="overlay">
+                                    <a class="preview btn btn-danger" href="images/portfolio/full/igem.jpg"><i class="icon-eye-open"></i></a>        
+                                </div> 
+                            </div>
+                            <p class="nice cool" >qwerty123</p>          
+                        </div>           
+                    </li>
+                </ul>
+            </div><!--/.box-->
+        </div><!--/.container-->
+    </section><!--/#portfolio-->
+
+
+
+    <section id="pricing">
+        <div class="container">
+            <div class="box">
+                <div class="center">
+                    <h2>Publications</h2>
+                    <p class="lead">  
+                    </p>
+                </div>
+                <!--<div class="big-gap"></div>
+                <div id="pricing-table" class="row">
+                    <div class="col-sm-4">
+                        <ul class="plan featured">
+                        <li class="portfolio-item">
+                        <div class="item-inner">
+                            <div class="portfolio-image">
+                                <img src="images/portfolio/thumb/cd.jpg" alt="">
+                                <div class="overlay">
+                                    <a class="preview btn btn-danger" title="Creative Design" href="images/portfolio/full/cd.jpg"><i class="icon-eye-open"></i></a>             
+                                </div>
+                            </div>
+                            <h5>Creative Design</h5>
+                        </div>
+                        </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4">
+                        <ul class="plan featured">
+                        <li class="portfolio-item">
+                        <div class="item-inner">
+                            <div class="portfolio-image">
+                                <img src="images/portfolio/thumb/c3.jpg" alt="">
+                                <div class="overlay">
+                                    <a class="preview btn btn-danger" title="Cubing" href="images/portfolio/full/c3.jpg"><i class="icon-eye-open"></i></a>             
+                                </div>
+                            </div>
+                            <h5>Cubing</h5>
+                        </div>
+                        </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4">
+                        <ul class="plan featured">
+                        <li class="portfolio-item">
+                        <div class="item-inner">
+                            <div class="portfolio-image">
+                                <img src="images/portfolio/thumb/ch.jpg" alt="">
+                                <div class="overlay">
+                                    <a class="preview btn btn-danger" title="Chess | Table Tennis" href="images/portfolio/full/ch.jpg"><i class="icon-eye-open"></i></a>             
+                                </div>
+                            </div>
+                            <h5>Chess | Table Tennis</h5>
+                        </div>
+                        </li>
+                        </ul>
+                    </div>-->
+                </div> 
+            </div> 
+        </div>
+    </section><!--/#pricing-->
+
+    <section id="about-us">
+        <div class="container">
+            <div class="box">
+                <div class="center">
+                    <h2>About me</h2>
+                    <p class="lead">  Hello ! </p>
+                    <p class="lead nice cool"> </p>
+                </div>
+                <div class="gap"></div>
+                <div id="team-scroller" class="carousel scale">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    
+                                </div>
+                                <div class="col-sm-4">
+                                   
+                                </div>        
+                                <div class="col-sm-4">
+                                   
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div><!--/.carousel-->
+            </div><!--/.box-->
+        </div><!--/.container-->
+    </section><!--/#about-us-->
+
+    <section id="contact">
+        <div class="container">
+            <div class="box last">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h1>Contact Form</h1>
+                        <p>Feel free to contact me anytime ! </p> <p> <font color="#A52A2A"> There are some issues with this contact form. If its not working please go through the connect with me panel. </font></p>
+                        <div class="status alert alert-success" style="display: none"></div>
+                        <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php" role="form">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" required="required" placeholder="Name">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" required="required" placeholder="Email address">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Message"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-danger btn-lg">Send Message</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div><!--/.col-sm-6-->
+                    <div class="col-sm-6">
+                        <h1>Address</h1>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p >
+                                    <br>
+                                    Chemical Engineering <br> Indian Institute of Technology Delhi, Hauz Khas, <br> New Delhi, India 110016
+                                    <!--<abbr title="Phone"></abbr>-->
+                                </p>
+                            </div>
+                        </div>
+                        <h1>Connect with me</h1>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <ul class="social">
+                                    <li><a target="_blank" href="http://www.facebook.com/xinformatics"><i class="icon-facebook-sign icon-social"></i> Facebook</a></li>
+                                    <li><a href="mailto:shashankyadav321@gmail.com"><i class="icon-google-plus-sign icon-social"></i> Gmail</a></li>
+                                    <li><a target="_blank" href="https://github.com/xinformatics" > <i class="icon-github icon-social"></i>Github</a></li>
+                                    <li><a><i class="icon-phone-sign icon-social"></i> +91-7503995633</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul class="social">
+                                    <li><a target="_blank" href="http://in.linkedin.com/in/xinformatics"><i class="icon-linkedin-sign icon-social"></i> Linkedin</a></li>
+                                    <li><a target="_blank" href="http://www.twitter.com/xinformatics"><i class="icon-twitter-sign icon-social"></i> Twitter</a></li>
+                                    <li><a target="_blank" href="http://www.instagram.com/xinformatics"><i class="icon-ok-sign icon-social"></i> Instagram</a></li>
+                                    <li><a><i class="icon-skype icon-social"></i> igem_iit_delhi</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div><!--/.col-sm-6-->
+                </div><!--/.row-->
+            </div><!--/.box-->
+        </div><!--/.container-->
+    </section><!--/#contact-->
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <a target="_blank" href="" title=""> <b> # Last Updated: 12/04/2017 </a>
+                </div>
+                <div class="col-sm-6">
+                    <img class="pull-right" src="" alt="" title="">
+                </div>
+            </div>
+        </div>
+    </footer><!--/#footer-->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
